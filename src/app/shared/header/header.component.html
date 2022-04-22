@@ -1,0 +1,11 @@
+<header>
+  <div class="elementor-widget-container">
+    <nav class="nav-menu">
+      <ul class="nav-menu__list">
+        <li class="nav-menu__list__item" *ngFor="let menuItem of menuItems">
+          <a [routerLink]="menuItem.link" routerLinkActive="active" [title]="menuItem.title" class="nav-menu__list__item__link">{{menuItem.title}}</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

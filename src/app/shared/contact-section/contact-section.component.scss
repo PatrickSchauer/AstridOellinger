@@ -1,0 +1,52 @@
+.contact-section {
+  background-color: #EEEEEE;
+  padding: 0 20px 23px 20px;
+
+  .contact-section__container {
+    display: flex;
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    justify-content: space-between;
+
+    .contact-section__container__item {
+
+      .contact-section__container__item__logo-container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      .contact-section__container__item__contacts-list {
+        list-style-type: none;
+
+        .contact-section__container__item__contacts-list__item {
+          font-family: "Poppins", Sans-serif, sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          margin-bottom: 20px;
+
+          a {
+            text-decoration: none;
+            color: #1a1a1a;
+
+          }
+            .contact-section__container__item__contacts-list__item__text {
+              margin-left: 15px;
+            }
+        }
+      }
+
+      .contact-section__container__item__impressum {
+        font-size: 20px;
+        font-weight: 300;
+
+        a {
+          text-decoration: none;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
