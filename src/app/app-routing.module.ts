@@ -54,7 +54,7 @@ import {UnternehmensberatungComponent} from "./unternehmensberatung/unternehmens
         path: '**',
         component: HomeComponent
       },
-    ], {scrollPositionRestoration: 'enabled'}),
+    ], {scrollPositionRestoration: 'enabled', useHash: true}),
   ],
   exports: [RouterModule],
 })
